@@ -52,3 +52,4 @@ services:
       KEYCLOAK_ADDR: http://keycloak:8080
       KEYCLOAK_REALM: reports-realm
       APP_ADDR: 0.0.0.0:8000
+    restart: on-failure
